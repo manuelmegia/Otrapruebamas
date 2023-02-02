@@ -2,12 +2,13 @@ package com.example.otrapruebamas
 
 import kotlin.random.Random
 
-data class Personaje(private var nombre: String,
-                private var raza: String,
-                private var clase: String,
+data class Personaje(
+    var nombre: String? = null,
+    var raza: String? = null,
+    var clase: String? = null,
 ) {
 
-
+/*
     var pesoMochila: Int = 10
     var mochila = Mochila(pesoMochila)
     var fuerza: Int = Random.nextInt(10, 16)
@@ -25,5 +26,5 @@ data class Personaje(private var nombre: String,
 
     override fun toString(): String {
         return "Personaje(nombre='$nombre', raza='$raza', clase='$clase', pesoMochila=$pesoMochila, mochila=$mochila, fuerza=$fuerza, defensa=$defensa, vida=$vida, monedero=$monedero)"
-    }
+    }*/
 }

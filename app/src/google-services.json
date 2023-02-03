@@ -2,6 +2,7 @@
   "project_info": {
     "project_number": "476318228035",
     "project_id": "elverdaderorondon",
+    "firebase_url": "https://elverdaderorondon-default-rtdb.europe-west1.firebasedatabase.app",
     "storage_bucket": "elverdaderorondon.appspot.com"
   },
   "client": [
